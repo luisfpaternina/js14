@@ -13,7 +13,7 @@ var TreeButton = ListController.extend({
        var self = this;
         this.do_action({
            type: 'ir.actions.act_window',
-           res_model: 'test.wizard',
+           res_model: 'sale.order.wizard',
            name :'Open Wizard',
            view_mode: 'form',
            view_type: 'form',
