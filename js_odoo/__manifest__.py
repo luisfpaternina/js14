@@ -16,6 +16,7 @@
         'base',
         'base_automation',
         'point_of_sale',
+        'sale_management',
 
     ],
 
