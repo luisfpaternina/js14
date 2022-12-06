@@ -26,5 +26,10 @@
         #'views/pos_order.xml',
                    
     ],
+
+    'qweb': [
+        'static/src/xml/tree_button.xml',
+    ],
+
     'installable': True
 }
