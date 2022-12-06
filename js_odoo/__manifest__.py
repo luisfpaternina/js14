@@ -29,6 +29,7 @@
 
     'qweb': [
         'static/src/xml/tree_button.xml',
+        'static/src/xml/kanban_button.xml',
     ],
 
     'installable': True
