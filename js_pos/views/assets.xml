@@ -1,8 +1,10 @@
-<odoo>
- <template id="button_render_js" inherit_id="web.assets_backend">
-       <xpath expr="." position="inside">
-           <script src="js_odoo/static/src/js/tree_button.js" type="text/javascript"/>
-           <script src="js_odoo/static/src/js/kanban_button.js" type="text/javascript"/>
-       </xpath>
-   </template>
-</odoo>
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="CustomRewardButtons" owl="1">
+       <span class="control-button" t-att-class="is_available()?    'highlight' : ''">
+           <i class="fa fa-star"></i>
+           <span> </span>
+           <span>My Button</span>
+       </span>
+   </t>
+</templates>
