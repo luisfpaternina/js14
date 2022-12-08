@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<templates id="template" xml:space="preserve">
-    <t t-name="CustomRewardButtons" owl="1">
-       <span class="control-button" t-att-class="is_available()?    'highlight' : ''">
-           <i class="fa fa-star"></i>
-           <span> </span>
-           <span>My Button</span>
-       </span>
-   </t>
-</templates>
+<template id="pos_extend_assets" inherit_id="point_of_sale.assets">
+    <xpath expr="." position="inside">
+        <script type="text/javascript" src="/pos_custom_buttons/static/src/js/pos_payment_button.js"/>
+        <script type="text/javascript" src="/pos_custom_buttons/static/src/js/pos_product_screen_button.js"/>
+        <script type="text/javascript" src="/pos_custom_buttons/static/src/js/pos_ticket_button.js"/>
+    </xpath>
+</template>
