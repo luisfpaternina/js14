@@ -4,7 +4,7 @@
        <span class="control-button" t-att-class="is_available()?    'highlight' : ''">
            <i class="fa fa-star"></i>
            <span> </span>
-           <span>My Button</span>
+           <span>BOTON DE PRUEBA</span>
        </span>
    </t>
 </templates>
