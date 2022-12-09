@@ -18,8 +18,8 @@ odoo.define('js_pos.RewardButton', function(require) {
        }
        onClick() {
                 Gui.showPopup("ErrorPopup", {
-                       title: this.env._t('Payment Screen Custom Button Clicked'),
-                       body: this.env._t('Welcome to OWL'),
+                       title: this.env._t('TITULO'),
+                       body: this.env._t('PRUEBA VENTANA LFPV'),
                    });
        }
    }
