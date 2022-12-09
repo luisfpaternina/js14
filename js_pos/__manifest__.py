@@ -24,13 +24,13 @@
 
         #'security/security.xml',
         #'security/ir.model.access.csv',
-        #'views/assets.xml',
+        'views/assets.xml',
         
                    
     ],
 
     'qweb': [
-        #'static/src/xml/tree_button.xml',
+        'static/src/xml/view.xml',
         #'static/src/xml/kanban_button.xml',
     ],
 
