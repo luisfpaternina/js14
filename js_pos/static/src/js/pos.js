@@ -7,6 +7,7 @@ odoo.define('js_pos.RewardButton', function(require) {
    const { useListener } = require('web.custom_hooks');
    const Registries = require('point_of_sale.Registries');
    const PaymentScreen = require('point_of_sale.PaymentScreen');
+
    class CustomRewardButtons extends PosComponent {
        constructor() {
            super(...arguments);
