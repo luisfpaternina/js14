@@ -1,4 +1,4 @@
-odoo.define('pos_custom_buttons.RewardButton', function(require) {
+odoo.define('js_pos.RewardButton', function(require) {
 'use strict';
    const { Gui } = require('point_of_sale.Gui');
    const PosComponent = require('point_of_sale.PosComponent');
