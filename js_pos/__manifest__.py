@@ -31,6 +31,7 @@
 
     'qweb': [
         'static/src/xml/view.xml',
+        'static/src/xml/payment.xml',
     ],
 
     'installable': True
