@@ -1,4 +1,4 @@
-odoo.define('pos_custom_buttons.PaymentScreenButton', function(require) {
+odoo.define('js_pos.PaymentScreenButton', function(require) {
 'use strict';
 
    const { Gui } = require('point_of_sale.Gui');
@@ -15,8 +15,8 @@ odoo.define('pos_custom_buttons.PaymentScreenButton', function(require) {
            }
            IsCustomButton() {
                 Gui.showPopup("ErrorPopup", {
-                       title: this.env._t('Payment Screen Custom Button Clicked'),
-                       body: this.env._t('Welcome to OWL'),
+                       title: this.env._t('POPUP DE ALERTA'),
+                       body: this.env._t('PRUEBA DE BOTON EN PAGOS LFPV'),
                    });
            }
        };
